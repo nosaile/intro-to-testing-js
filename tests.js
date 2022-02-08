@@ -25,8 +25,15 @@ describe('sayHello', function(){
     });
 });
 describe('sayHello("Jane")', function(){
-    it('should return a string "Hello, Jane!', function() {
+    it('should return a string "Hello, Jane!"', function() {
         expect(sayHello("Jane")).toBe("Hello, Jane!");
     });
 });
+describe('sayHello("Alex")', function (){
+    it('should return a string "Hello, Alex!"', function() {
+    expect(sayHello("Alex")).toBe("Hello, Alex!");
+    });
+})
+
+
 
