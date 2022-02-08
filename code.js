@@ -4,4 +4,6 @@ function helloWorld() {
 }
 
 
-function sayHello(){}
+function sayHello(){
+    return ("")
+}
