@@ -21,12 +21,16 @@ function sayHello(x) {
 //isFive function
 
 function isFive(input) {
-    if (input === 5 || input ==="5") {
+    if (input === 5 || input === "5") {
         return true;
     } else return false
 }
 
 
+//isEven function
+function isEven(input) {
 
+
+}
 
 
