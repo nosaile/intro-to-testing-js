@@ -18,6 +18,14 @@ function sayHello(x) {
     }else return "Hello, World!"
 }
 
+//isFive function
+
+function isFive(input) {
+    if (input === 5 || input ==="5") {
+        return true;
+    } else return false
+}
+
 
 
 
